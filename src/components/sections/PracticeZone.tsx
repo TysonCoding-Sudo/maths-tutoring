@@ -75,7 +75,7 @@ export default function PracticeZone() {
                 ))}
               </div>
 
-              <PracticeQuestion filterGrade={activeGrade || undefined} />
+              <PracticeQuestion filterGrade={activeGrade || undefined} filterTopic={activeTopic || undefined} />
             </div>
           </div>
 
