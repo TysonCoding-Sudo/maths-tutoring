@@ -1,3 +1,5 @@
+import { tutors } from "./tutors";
+
 export interface QuizQuestion {
   id: number;
   question: string;
@@ -53,61 +55,39 @@ export const quizQuestions: QuizQuestion[] = [
   },
 ];
 
+const tutorName = tutors[0]?.name || "Mr. Hlabela";
+
 export function calculateQuizResult(answers: Record<number, string>): QuizResult {
-  const grade = answers[1] || "";
-  const struggle = answers[2] || "";
   const goal = answers[3] || "";
   const format = answers[4] || "";
 
-  if (goal === "exam-prep" || struggle === "exam-tech") {
+  if (goal === "exam-prep") {
     return {
       recommendedService: "Exam Preparation & Past Papers",
-      recommendedTutor: "Thabo Ntuli",
-      matchReason:
-        "Your focus on exam preparation aligns perfectly with our structured exam prep program. Thabo specialises in exam technique and has a 95% matric pass rate.",
+      recommendedTutor: tutorName,
+      matchReason: `Your focus on exam preparation is exactly what we specialise in. ${tutorName} will guide you through past papers, exam technique, and topic-specific revision.`,
     };
   }
 
-  if (goal === "homework" || struggle === "application") {
+  if (goal === "homework") {
     return {
       recommendedService: "Homework Help & Assignment Support",
-      recommendedTutor: "James Kruger",
-      matchReason:
-        "You need flexible support with assignments and application. James excels at helping students connect concepts to practical problems.",
-    };
-  }
-
-  if (goal === "ongoing" || format === "one-on-one") {
-    return {
-      recommendedService: "One-on-One Tutoring",
-      recommendedTutor: "Sarah Mitchell",
-      matchReason:
-        "Ongoing one-on-one support is ideal for consistent progress. Sarah's methodical approach ensures strong foundations and steady improvement.",
+      recommendedTutor: tutorName,
+      matchReason: `Need help with assignments? ${tutorName} provides flexible homework support to make sure you never get stuck.`,
     };
   }
 
   if (format === "group") {
     return {
       recommendedService: "Group Classes & Study Sessions",
-      recommendedTutor: "James Kruger",
-      matchReason:
-        "Group sessions are a fantastic way to learn collaboratively. James's engaging style keeps groups motivated and learning from each other.",
-    };
-  }
-
-  if (format === "online" || grade === "foundation") {
-    return {
-      recommendedService: "Online Lessons & Downloadable Resources",
-      recommendedTutor: "Emma Williams",
-      matchReason:
-        "Self-paced online resources with the option of tutor support. Emma's creative approach is perfect for younger learners building confidence.",
+      recommendedTutor: tutorName,
+      matchReason: `Group sessions are a great way to learn collaboratively with ${tutorName}'s guidance.`,
     };
   }
 
   return {
     recommendedService: "One-on-One Tutoring",
-    recommendedTutor: "Sarah Mitchell",
-    matchReason:
-      "Based on your responses, we recommend starting with personalised one-on-one tutoring to address your specific needs.",
+    recommendedTutor: tutorName,
+    matchReason: `Based on your responses, personalised one-on-one tutoring with ${tutorName} is the best fit. Every session is tailored to your pace and goals.`,
   };
 }

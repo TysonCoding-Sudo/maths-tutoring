@@ -20,7 +20,7 @@ export default function Contact() {
 
             <div className="mt-8 space-y-4">
               <a
-                href="https://wa.me/27123456789"
+                href="https://wa.me/27773645667"
                 className="flex items-center gap-3 text-slate-300 hover:text-green-400 transition-colors group"
               >
                 <div className="w-10 h-10 rounded-lg bg-green-600/20 flex items-center justify-center group-hover:bg-green-600/30 transition-colors">
@@ -28,12 +28,12 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-slate-400">WhatsApp</p>
-                  <p className="text-sm font-medium text-white">+27 12 345 6789</p>
+                  <p className="text-sm font-medium text-white">+27 77 364 5667</p>
                 </div>
               </a>
 
               <a
-                href="tel:+27123456789"
+                href="tel:+27773645667"
                 className="flex items-center gap-3 text-slate-300 hover:text-teal-400 transition-colors group"
               >
                 <div className="w-10 h-10 rounded-lg bg-teal-600/20 flex items-center justify-center group-hover:bg-teal-600/30 transition-colors">
@@ -41,12 +41,12 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-slate-400">Phone</p>
-                  <p className="text-sm font-medium text-white">+27 12 345 6789</p>
+                  <p className="text-sm font-medium text-white">+27 77 364 5667</p>
                 </div>
               </a>
 
               <a
-                href="mailto:hello@mathsmind.co.za"
+                href="mailto:hello@brightmindmaths.co.za"
                 className="flex items-center gap-3 text-slate-300 hover:text-cyan-400 transition-colors group"
               >
                 <div className="w-10 h-10 rounded-lg bg-cyan-600/20 flex items-center justify-center group-hover:bg-cyan-600/30 transition-colors">
@@ -54,7 +54,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-slate-400">Email</p>
-                  <p className="text-sm font-medium text-white">hello@mathsmind.co.za</p>
+                  <p className="text-sm font-medium text-white">hello@brightmindmaths.co.za</p>
                 </div>
               </a>
             </div>
