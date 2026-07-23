@@ -38,7 +38,7 @@ export default function Testimonials() {
         >
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800">Results That Speak</h2>
           <p className="mt-3 text-slate-600 max-w-xl mx-auto">
-            Hear from students and parents about their experience with MathsMind.
+            Hear from students and parents about their experience with BrightMinds Maths.
           </p>
         </motion.div>
 

@@ -118,7 +118,7 @@ export default function Contact() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/10 text-center text-sm text-slate-400">
-          <p>&copy; {new Date().getFullYear()} MathsMind Tutoring. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} BrightMinds Maths Tutoring. All rights reserved.</p>
         </div>
       </div>
     </section>

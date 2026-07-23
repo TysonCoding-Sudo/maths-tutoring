@@ -25,7 +25,7 @@ export default function FAQ() {
         >
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800">Frequently Asked Questions</h2>
           <p className="mt-3 text-slate-600">
-            Everything you need to know about tutoring with MathsMind.
+            Everything you need to know about tutoring with BrightMinds Maths.
           </p>
         </motion.div>
 
