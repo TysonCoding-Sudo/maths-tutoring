@@ -46,7 +46,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="mailto:hello@brightmindmaths.co.za"
+                href="mailto:lethabomatsila413@gmail.com"
                 className="flex items-center gap-3 text-slate-300 hover:text-cyan-400 transition-colors group"
               >
                 <div className="w-10 h-10 rounded-lg bg-cyan-600/20 flex items-center justify-center group-hover:bg-cyan-600/30 transition-colors">
@@ -54,7 +54,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-slate-400">Email</p>
-                  <p className="text-sm font-medium text-white">hello@brightmindmaths.co.za</p>
+                  <p className="text-sm font-medium text-white">lethabomatsila413@gmail.com</p>
                 </div>
               </a>
             </div>
