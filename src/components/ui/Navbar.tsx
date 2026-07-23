@@ -8,6 +8,7 @@ const navLinks = [
   { label: "Services", href: "#services" },
   { label: "Levels", href: "#levels" },
   { label: "Practice", href: "#practice" },
+  { label: "Study", href: "#study" },
   { label: "Tutors", href: "#tutors" },
   { label: "Pricing", href: "#pricing" },
   { label: "FAQ", href: "#faq" },

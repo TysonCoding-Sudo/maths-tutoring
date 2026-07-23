@@ -3,6 +3,7 @@ import FindYourFit from "@/components/sections/FindYourFit";
 import Services from "@/components/sections/Services";
 import LevelsCovered from "@/components/sections/LevelsCovered";
 import PracticeZone from "@/components/sections/PracticeZone";
+import StudyCentre from "@/components/sections/StudyCentre";
 import MeetTutors from "@/components/sections/MeetTutors";
 import Pricing from "@/components/sections/Pricing";
 import BookLesson from "@/components/sections/BookLesson";
@@ -18,6 +19,7 @@ export default function Home() {
       <Services />
       <LevelsCovered />
       <PracticeZone />
+      <StudyCentre />
       <MeetTutors />
       <Pricing />
       <BookLesson />
